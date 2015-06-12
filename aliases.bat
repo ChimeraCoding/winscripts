@@ -35,8 +35,10 @@ pd=pushd
 home=cd C:\Users\simon.harris
 
 ;= Copy and move macros
-cp=copy
-mv=move
+cp=COPY $*
+mv=MOVE $*
+cpall=C:\Users\simon.harris\Scripts\cpall.bat
+mvall=C:\Users\simon.harris\Scripts\mvall.bat
 
 ;= Delete macros
 rm=del /p $*
